@@ -1,0 +1,247 @@
+/*my FramWork */
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	width: 1070px;
+	margin: auto;
+	padding-right: 15px;
+	padding-left: 15px
+}
+
+.hidden {
+	display: none
+}
+
+.img-res {
+		display: block;
+		max-width: 100%;
+		height: auto
+}
+
+.hidden-xs, .hidden-sm, .hidden-md, .hidden-lg {
+	display: block;
+}
+
+/* header **************************************************************************************/
+
+header {
+	background: url(../images/bg.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 450px;
+	margin-top: -16px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+	
+}
+
+header .items h1 {
+	margin: 0;
+	padding-top: 140px;
+	color: white
+}
+
+header .items p {
+	color: white
+}
+
+header .menu ul {
+	list-style: none;
+	padding-top: 30px
+	
+}
+
+header .menu ul li {
+	display: inline-block;
+	padding: 0 10px 0;
+	margin: 0 10px 0;
+	float: right
+}
+
+header .menu a {
+	text-decoration: none;
+	color: white
+}
+
+/* Post **************************************************************************************/
+
+
+.post h1 {
+	text-align: center;
+	padding-bottom: 30px
+}
+
+.post .box {
+	padding: 50px;
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	border: 2px solid #e6e6e6;
+	position: relative;
+	margin-bottom: 67px;
+	border-radius: 8px
+	
+}
+
+.post .box:hover {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+}
+
+.post .item-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden
+}
+
+.post .item-image h3,p,i {
+	margin-left: 20px;
+}
+
+.post .item-image p {
+	width: 580px;
+	color: darkgray
+}
+
+.post .item-image i {
+	color: darkgray
+}
+
+.post .item-image img {
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	border-radius: 8px 8px 0 0
+}
+
+/*@media */
+/*navbar*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	nav {
+		max-width: 100%
+	}
+	
+	.container {
+		max-width: 900px
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	nav {
+		max-width: 100%
+	}
+	
+	.container {
+		max-width: 700px
+	}
+}
+
+@media (min-width: 300px) and (max-width: 766px) {
+	nav {
+		max-width: 500px
+	}
+	
+	.container {
+		max-width: 320px
+	}
+	
+}
+
+
+/*box*/
+@media (min-width: 992px) and (max-width: 1200px) {
+	.post .box {
+		
+		
+		float: left;
+		width: 32%;
+		margin: 20px;
+	}
+	
+	.img-res {
+		width: 400px
+	}
+	
+	.post .item-image p {
+		width: 100%
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.post .box {
+		max-width: 200px;
+		float: left;
+		width: 50%;
+		margin: 20px;
+	}
+	
+	.img-res {
+		width: 400px
+	}
+	
+	.post .item-image p {
+		width: 90%
+	}
+	
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+	.post .box {
+		padding: 0 100px 30px;
+		max-width: 30%;
+		
+	}
+	
+	.img-res {
+		width: 300px
+	}
+	
+	.post .item-image p {
+		width: 70%
+	}
+	
+	.hidden-xs {
+		display: none
+	}
+	
+}
+
+@media (min-width: 300px) and (max-width: 419px) {
+	.post .box {
+		padding: 0 50px 30px;
+		max-width: 30%;
+		
+	}
+	
+	.container {
+		width: 110px
+	}
+	
+	.img-res {
+		width: 300px
+	}
+	
+	.post .item-image p {
+		width: 70%
+	}
+	
+	.hidden-xs {
+		display: none
+	}
+	
+}
+
+/*footer************************************************************************************/
+/*footer {
+	background-color: black;
+	height: 400px;
+	color: wheat
+}
+
+footer .box {
+	float: left;
+	width: 32%
+}*/
